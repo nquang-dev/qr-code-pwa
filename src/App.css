@@ -1,0 +1,49 @@
+/* App-specific styles */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Loading states */
+.loading-spinner {
+  @apply inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600;
+}
+
+/* Custom QR styles */
+.qr-container {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Camera overlay styles */
+.camera-overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.camera-overlay::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid rgba(59, 130, 246, 0.5);
+  border-radius: 12px;
+  pointer-events: none;
+}
+
+/* Responsive utilities */
+@media (max-width: 640px) {
+  .mobile-padding {
+    padding: 1rem;
+  }
+}
+
+/* PWA install button */
+.pwa-install-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
