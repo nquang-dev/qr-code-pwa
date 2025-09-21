@@ -112,12 +112,6 @@ Tệp xây dựng sẽ được tạo trong thư mục `dist/`.
 npm run preview
 ```
 
-### Cài đặt như PWA
-
-1. Mở ứng dụng trong trình duyệt hỗ trợ PWA (Chrome, Edge, Safari, etc.)
-2. Nhấp vào nút cài đặt trong thanh địa chỉ hoặc menu
-3. Ứng dụng sẽ được cài đặt như ứng dụng gốc trên thiết bị
-
 ### Sử dụng các tính năng
 
 #### Tạo mã QR
